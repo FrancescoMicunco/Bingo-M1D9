@@ -1,0 +1,43 @@
+body {
+    background-color: chartreuse;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    display: inline-block;
+}
+
+.selected {
+    border: 2px solid white;
+}
+
+#tableNumbers {
+    width: 70%;
+    margin-left: 15%;
+    display: inline-block;
+}
+
+.cell {
+    background-color: rgb(143, 223, 97);
+    display: inline-block;
+    width: 12%;
+    height: 15%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+#selectedNumber {
+    background-color: cornsilk;
+    width: 12%;
+    height: 15%;
+    margin-left: 40%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 30px
+}
+
+#btn {
+    padding: 1.2rem 1.2rem;
+}
